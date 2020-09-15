@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.wrapper {
+    width: 30rem;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid;
+}
+
+.loaderWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    width: 5rem;
+    height: 5rem;
+    opacity: 0;
+}
+
+.loading.show {
+    opacity: 1; 
+} 
